@@ -1,8 +1,8 @@
-import {utilLib} from '@reef-chain/util-lib';
+import * as utilLib from '@reef-chain/util-lib';
 
 export function App() {
   const handleClick = ()=>{
-    console.log(utilLib())
+    console.log(utilLib)
   }
   return (
     <div>
