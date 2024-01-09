@@ -1,5 +1,6 @@
 import {
   catchError,
+  map,
   mergeWith,
   Observable,
   of,
@@ -11,6 +12,7 @@ import {
 import {
   getTokenPrice,
   PRICE_REEF_TOKEN_ID,
+  retrieveReefCoingeckoPrice,
 } from "./prices";
 import {
   StatusDataObject,

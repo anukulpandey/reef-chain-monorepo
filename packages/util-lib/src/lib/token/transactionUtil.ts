@@ -1,5 +1,5 @@
 import { AVAILABLE_NETWORKS, Network } from "../network/network";
-import { ReefAccount } from "../account/accountModel";
+import { ReefAccount, ReefSigner } from "../account/accountModel";
 import {
   toTxErrorCodeValue,
   TX_STATUS_ERROR_CODE,
