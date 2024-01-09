@@ -1,0 +1,52 @@
+.uik-pool-actions .uik-button--loading .uik-loading {
+  position: static;
+}
+
+.uik-pool-actions .uik-button--loading .uik-button__text {
+  opacity: 1;
+  margin-left: 0.8rem;
+  color: hsla(
+    var(--text--h),
+    var(--text--s),
+    var(--text--l),
+    0.5
+  ) !important;
+}
+
+.uik-pool-actions .uik-button--loading .uik-loading__spinner-dot::before {
+  background: var(--text-light) !important;
+}
+
+.uik-pool-actions__description {
+  margin-top: 25px;
+  margin-bottom: -20px;
+  padding: 0 3px;
+  color: hsla(
+    var(--text--h),
+    var(--text--s),
+    var(--text--l),
+    0.8
+  ) !important;
+  text-align: center;
+}
+
+.uik-pool-actions__switch-slider-container {
+  display: flex;
+}
+
+.uik-pool-actions__switch-slider-container .uik-pool-actions__token-switch {
+  height: auto !important;
+  width: auto !important;
+  justify-content: start !important;
+  margin-left: 19px;
+}
+
+.uik-pool-actions__switch-slider-container .uik-pool-actions__slider {
+  margin: 30px 0 30px 50px !important;
+  width: 100%;
+}
+
+.slippage-warning svg {
+  position: absolute;
+  height: 16px;
+}
