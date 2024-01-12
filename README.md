@@ -27,5 +27,7 @@ All the changes which you do in /libs/ui-kit will be instantly reflected here
 To build packages or libraries run 
 
 ```bash
+cd libs/<package_name>
+yarn 
 nx run <package_name>:build
 ```
