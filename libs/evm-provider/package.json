@@ -2,7 +2,7 @@
   "name": "@reef-chain/evm-provider",
   "version": "0.0.1",
   "scripts": {
-    "build": "rm -rf build&&rm tsconfig.tsbuildinfo&&polkadot-dev-build-ts&&cp yarn.lock build/yarn.lock",
+    "build": "rm -rf build&&polkadot-dev-build-ts&&cp yarn.lock build/yarn.lock",
     "build:release": "polkadot-ci-ghact-build",
     "publish": "yarn build&&npm publish ./build"
   },
